@@ -21,7 +21,6 @@
             <button type="submit">CREATE</button>
             <a href="${pageContext.request.contextPath}/teachers" id="returnbutton">CANCEL</a>
         </form>
-        
     </section> 
 </body>
 </html>
