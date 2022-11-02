@@ -1,0 +1,88 @@
+/*                  CSS RESET                   */
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+    background-color: #395144;
+}
+
+#courses-table
+{
+    display: flex;
+    justify-content: center;
+}
+
+table
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    background-color: #F0EBCE;
+    padding: 3rem 6rem;
+    margin-top: 2em;
+    font-size: 1.6rem;
+}
+
+table th
+{
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    padding: 1rem;
+}
+
+table tr
+{
+    border-bottom: 1px solid black;
+}
+
+table td
+{
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+table td a
+{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #F0EBCE;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+}
+
+table td a:hover
+{
+    background-color: #395144;
+    color: white;
+}
+
+#addbutton
+{
+    text-align: center;
+}
+
+#returnbutton a
+{
+    background-color: #DD5353;
+    color: white;
+    border: none;
+}
+
+#returnbutton a:hover
+{
+    background-color: green;
+}

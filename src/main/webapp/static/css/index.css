@@ -1,0 +1,272 @@
+/*                  CSS RESET                   */
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+/*                  CLASSES                 */
+.section-text
+{
+    flex-basis: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-form
+{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+/*                  NAV CSS                 */
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: #F0EBCE;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    background-color: #AA8B56;
+    border-radius: 10px;
+    color: #F0EBCE;
+}
+
+#logo span
+{
+    padding: 0 0.2rem;
+}
+
+#nav-menu
+{
+    margin-left: auto;
+}
+
+#nav-menu a
+{
+    padding: 1em 2em;
+    font-size: 1.8em;
+    text-align: center;
+    color: black;
+}
+
+#nav-menu a:hover
+{
+    background-color: #AA8B56;
+    color: #F0EBCE;
+}
+
+/*                  MAIN SECTION CSS                    */
+#main-section
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #AA8B56;
+    padding: 6rem 0;
+}
+
+h1
+{
+    flex-basis: 100%;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #F0EBCE;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 10px 10px 8px black;
+}
+
+#main-section p
+{
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 4rem;
+    margin: 6rem 2rem;
+    background-color: #F0EBCE;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 10px 10px 8px black;
+}
+
+/*                  TEACHER SECTION CSS                 */
+#teacher-section
+{
+    display: flex;
+    background-color: #4E6C50;
+    padding: 4rem 0;
+}
+
+#teacher-section span
+{
+    font-size: 1.8rem;
+    background-color: #395144;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#teacher-section form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #395144;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#teacher-section form label
+{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#teacher-section form input
+{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#teacher-section form button
+{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+/*                  STUDENT SECTION CSS                 */      
+#student-section
+{
+    display: flex;
+    background-color: #AA8B56;
+    padding: 4rem 0;
+}
+
+#student-section span
+{
+    font-size: 1.8rem;
+    background-color: #F0EBCE;
+    text-align: center;
+    color: black;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #395144;
+}
+
+#student-section form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0EBCE;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #395144;
+}
+
+#student-section form label
+{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#student-section form input
+{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#student-section form button
+{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+/*                  COURSE SECTION CSS                 */      
+#course-section
+{
+    display: flex;
+    background-color: #395144;
+    padding: 4rem 0;
+}
+
+#course-section span
+{
+    font-size: 1.8rem;
+    background-color: #4E6C50;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#course-section form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #4E6C50;
+    padding: 2rem;
+    margin: 3rem 2rem;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#course-section form label
+{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#course-section form input
+{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+#course-section form button
+{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}

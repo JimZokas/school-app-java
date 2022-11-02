@@ -1,0 +1,89 @@
+/*                  CSS RESET                   */
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+    background-color: #4E6C50;
+}
+
+#teacher-form
+{
+    display: flex;
+    justify-content: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    background-color: #F0EBCE;
+    padding: 3rem 6rem;
+    margin-top: 2em;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+label
+{
+    font-size: 1.6em;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+input
+{
+    font-size: 0.8em;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+button
+{
+    font-size: 0.8em;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #F0EBCE;
+    letter-spacing: 5px;
+}
+
+button:hover
+{
+    color: white;
+    background-color: #4E6C50;
+}
+
+#returnbutton
+{
+    background-color: #DD5353;
+    color: white;
+    border: none;
+    font-size: 0.8em;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#returnbutton:hover
+{
+    background-color: green;
+}
