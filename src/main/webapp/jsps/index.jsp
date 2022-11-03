@@ -28,11 +28,13 @@
         <h1>Welcome to my application!</h1>
 
         <p>  
-          Further below, you can create, edit or delete your own entities of Teacher, Student and Course!<br>
-          Search and manipulate your data in any way you like, but keep in mind the rules of the app*.<br>
+          Using the application menu, you can create, edit or delete your own entities of Teacher, Student and Course!<br>
+          Search and manipulate your data by inserting Teachers and Students in the database, creating courses, and then adding students to those courses.<br> 
+          Keep in mind the applications restrictions* listed bellow.<br><br>
+          *Fields cannot be empty, and must be at least 3 characters long.<br>
           *A Course can't be Created without an existing Teacher.<br>
           *A Student must exist to participate in a Course.<br>
-          *Deleting a Teacher, Student or Course will also delete their corresponding instances in all other tables.<br>
+          *Deleting a Teacher, Student or Course will also delete their corresponding instances in all other tables of the database.<br>
         </p>
     </section>
 </body>
